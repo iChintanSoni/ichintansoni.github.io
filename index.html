@@ -1,154 +1,550 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Chintan Soni</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="https://developer.android.com/images/brand/Android_Robot.png"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chintan Soni — AI Engineer &amp; Engineering Leader</title>
+  <meta name="description" content="AI engineer and engineering leader in Bengaluru. 13+ years across Android, full-stack and cloud-native systems, now building production agentic AI at IBM with LangGraph, RAG, A2A and MCP.">
+  <meta name="author" content="Chintan Soni">
+  <meta name="theme-color" content="#07070b">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="https://ichintansoni.github.io/">
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script type="text/javascript" src="dist/bundle.js"></script>
-    </body>
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ichintansoni.github.io/">
+  <meta property="og:title" content="Chintan Soni — AI Engineer &amp; Engineering Leader">
+  <meta property="og:description" content="I build multi-agent systems that turn weeks of enterprise work into minutes, and grow the teams that ship them.">
+  <meta property="og:image" content="https://ichintansoni.github.io/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@iChintanSoni">
+  <meta name="twitter:creator" content="@iChintanSoni">
+  <meta name="twitter:title" content="Chintan Soni — AI Engineer &amp; Engineering Leader">
+  <meta name="twitter:description" content="I build multi-agent systems that turn weeks of enterprise work into minutes, and grow the teams that ship them.">
+  <meta name="twitter:image" content="https://ichintansoni.github.io/assets/og.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Chintan Soni",
+    "url": "https://ichintansoni.github.io/",
+    "image": "https://ichintansoni.github.io/assets/images/chintan.jpg",
+    "jobTitle": "AI Engineer",
+    "worksFor": { "@type": "Organization", "name": "IBM" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Bengaluru", "addressRegion": "Karnataka", "addressCountry": "IN" },
+    "email": "mailto:ichintansoni@gmail.com",
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "L.J. Institute of Computer Applications" },
+      { "@type": "CollegeOrUniversity", "name": "K.K. Shah Jarodwala Science College" }
+    ],
+    "knowsAbout": ["Agentic AI", "LangGraph", "LangChain", "Retrieval-Augmented Generation", "Model Context Protocol", "Agent2Agent Protocol", "Kubernetes", "React", "TypeScript", "Python", "Android"],
+    "sameAs": [
+      "https://www.linkedin.com/in/ichintansoni/",
+      "https://github.com/iChintanSoni",
+      "https://x.com/iChintanSoni",
+      "https://stackoverflow.com/users/1739882/chintan-soni",
+      "https://dev.to/ichintansoni",
+      "https://medium.com/@chintansoni",
+      "https://www.youtube.com/playlist?list=PL0ytxsLaZuGIT3ZpmUGYRZQjrMqk4-wTx"
+    ]
+  }
+  </script>
 </head>
 
 <body>
-    <div class="row" id="protfolio-wrapper">
-        <section class="row intro-section">
-            <div class="intro-text col-xs-6">
-                <h2 id="hi-text" class="reveal-text">Hey there! </h2>
-                <div class="intro">
-                    <h2 id="first-text" class="reveal-text"> This is </h2>
-                    <h2 class="name reveal-text">Chintan Soni</h2>
-                    <div class="row">
-                        <p id="main-job-desc">Sr. Software Engineer</p>
-                        <div class="headerDivider"></div>
-                        <p id="primary-job-desc">Top Android Chef</p>
-                    </div>
-                </div>
-            </div>
-            <div class="intro-image col-xs-6">
-                <img class="reveal-text" src="./assets/images/developer.png" alt="developer-image-chintan" />
-            </div>
-        </section>
-        <section class="row about-me-section">
-            <div class="wow fadeInRight">
-                <p class="about-me-text">i am a <span>software engineer</span> who loves exploring the mobile world. i work with <a href="https://www.simform.com/" target="_blank" style="color: white;"><span>simform solutions.</span></a></p>
-            </div>
-        </section>
-        <section class="skillset-section">
-            <div class="wow fadeInLeft">
-                <div class="skill-text">
-                    <h4 id="light-text">key</h4>
-                    <h4 id="bold-text">skillset</h4>
-                </div>
-                <div class="skillset">
-                    <ul class="technology">
-                        <li>
-                            <img src="https://developer.android.com/images/brand/Android_Robot.png" class="fa-5x" alt="locaton" />
-                        </li>
-                        <li>
-                            <img src="./assets/images/kotlin.png" class="fa-5x" alt="locaton" />
-                        </li>
-                        <li>
-                            <img src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png" class="fa-5x" alt="locaton" />
-                        </li>
-                        <li>
-                            <i class="fab fa-java fa-4x"></i>
-                        </li>
-                        <li>
-                            <i class="fab fa-js-square fa-4x"></i>
-                        </li>
-                    </ul>
-                </div>
-                <div class="skill-text">
-                    <h4 id="light-text">web</h4>
-                    <h4 id="bold-text">presence</h4>
-                </div>
-                <div class="skillset">
-                    <ul class="technology">
-                        <li>
-                            <a href="https://github.com/chintansoni202" target="_blank" ><i style="color: black;" class="fab fa-stack-overflow fa-4x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/chintansoni202" target="_blank" ><i style="color: black;" class="fab fa-github fa-4x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://medium.com/@chintansoni" target="_blank" ><i style="color: black;" class="fab fa-medium fa-4x"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="contact-section">
-            <div class="wow fadeInLeft">
-                <div class="contact-text">
-                    <h4 id="light-text">let's</h4>
-                    <h4 id="bold-text">connect</h4>
-                </div>
-                <div class="contact-content">
-                    <ul>
-                        <li>
-                            <a href="https://www.linkedin.com/in/chintansoni202/" target="_blank" style="color: white;" ><h4>Linkedin</h4></a>
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/chintansoni202/" target="_blank" style="color: white;" ><h4>Facebook</h4></a>
-                            <i class="fab fa-facebook fa-2x"></i>
-                        </li>
-                        <li>
-                            <h4>chintansoni202@gmail.com</h4>
-                            <i class="far fa-envelope-open fa-2x"></i>
-                        </li>
-                        <li>
-                            <h4>Ahmedabad, Gujarat</h4>
-                            <i class="fas fa-map-marked-alt fa-2x"></i>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <!-- Icon sprite -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></symbol>
+    <symbol id="i-stackoverflow" viewBox="0 0 24 24"><path d="M15.725 0l-1.72 1.277 6.39 8.588 1.716-1.277L15.725 0zm-3.94 3.418l-1.369 1.644 8.225 6.85 1.369-1.644-8.225-6.85zm-3.15 4.465l-.905 1.94 9.702 4.517.904-1.94-9.701-4.517zm-1.85 4.86l-.44 2.093 10.473 2.201.44-2.092-10.473-2.203zM1.89 15.47V24h19.19v-8.53h-2.133v6.397H4.021v-6.396H1.89zm4.265 2.133v2.13h10.66v-2.13H6.154Z"/></symbol>
+    <symbol id="i-devto" viewBox="0 0 24 24"><path d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H6l.02 2.44.04 2.45.56-.02c.41 0 .63-.07.83-.26.24-.24.26-.36.26-2.2 0-1.91-.02-1.96-.29-2.18zM0 4.94v14.12h24V4.94H0zM8.56 15.3c-.44.58-1.06.77-2.53.77H4.71V8.53h1.4c1.67 0 2.16.18 2.6.9.27.43.29.6.32 2.57.05 2.23-.02 2.73-.47 3.3zm5.09-5.47h-2.47v1.77h1.52v1.28l-.72.04-.75.03v1.77l1.22.03 1.2.04v1.28h-1.6c-1.53 0-1.6-.01-1.87-.3l-.3-.28v-3.16c0-3.02.01-3.18.25-3.48.23-.31.25-.31 1.88-.31h1.64v1.3zm4.68 5.45c-.17.43-.64.79-1 .79-.18 0-.45-.15-.67-.39-.32-.32-.45-.63-.82-2.08l-.9-3.39-.45-1.67h.76c.4 0 .75.02.75.05 0 .06 1.16 4.54 1.26 4.83.04.15.32-.7.73-2.3l.66-2.52.74-.04c.4-.02.73 0 .73.04 0 .14-1.67 6.38-1.8 6.68z"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></symbol>
+    <symbol id="i-npm" viewBox="0 0 24 24"><path d="M1.763 0C.786 0 0 .786 0 1.763v20.474C0 23.214.786 24 1.763 24h20.474c.977 0 1.763-.786 1.763-1.763V1.763C24 .786 23.214 0 22.237 0zM5.13 5.323l13.837.019-.009 13.836h-3.464l.01-10.382h-3.456L12.04 19.17H5.113z"/></symbol>
+    <symbol id="i-medium" viewBox="0 0 24 24"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M8 7h9v9"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v13m0 0l-5-5m5 5l5-5M5 21h14"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm0 1l8 6 8-6"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 9h10v12H9zM5 15V3h10"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 15a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm-3.5-1.5L7 22l5-3 5 3-1.5-8.5"/></symbol>
+    <symbol id="i-cert" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20 6L9 17l-5-5"/></symbol>
+    <symbol id="i-edu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M2 9l10-5 10 5-10 5zm4 3v5c0 1 3 3 6 3s6-2 6-3v-5"/></symbol>
+  </svg>
+
+  <!-- Preloader -->
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <div class="pre-inner">
+      <div class="pre-name" aria-hidden="true"><span class="pre-word">Chintan</span> <span class="pre-word">Soni</span></div>
+      <div class="pre-bar"><i></i></div>
+      <div class="pre-row mono"><span class="pre-label">Loading portfolio</span><span class="pre-counter">00</span></div>
+    </div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="cursor" aria-hidden="true">
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"><span class="cursor-label"></span></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Chintan Soni, back to top">
+        <svg viewBox="0 0 40 40" width="36" height="36" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b7cff"/><stop offset="1" stop-color="#4fe3ff"/></linearGradient></defs><rect width="40" height="40" rx="11" fill="url(#lg)"/><text x="20" y="26" text-anchor="middle" font-family="Syne, sans-serif" font-weight="800" font-size="17" fill="#07070b">CS</text></svg>
+        <span>Chintan Soni</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about" data-nav="about">About</a>
+        <a href="#experience" data-nav="experience">Experience</a>
+        <a href="#work" data-nav="work">Work</a>
+        <a href="#writing" data-nav="writing">Writing</a>
+        <a href="#contact" data-nav="contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-sm btn-ghost magnetic" href="assets/Chintan_Soni_Resume.pdf" download>Resume <svg class="icon"><use href="#i-down"/></svg></a>
+        <button class="nav-burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu-links" aria-label="Mobile">
+      <a href="#about"><span class="mono">01</span>About</a>
+      <a href="#experience"><span class="mono">02</span>Experience</a>
+      <a href="#skills"><span class="mono">03</span>Skills</a>
+      <a href="#work"><span class="mono">04</span>Work</a>
+      <a href="#writing"><span class="mono">05</span>Writing</a>
+      <a href="#contact"><span class="mono">08</span>Contact</a>
+    </nav>
+    <div class="menu-foot">
+      <a href="mailto:ichintansoni@gmail.com">ichintansoni@gmail.com</a>
+      <div class="menu-social">
+        <a href="https://github.com/iChintanSoni" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon"><use href="#i-github"/></svg></a>
+        <a href="https://www.linkedin.com/in/ichintansoni/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"/></svg></a>
+        <a href="https://x.com/iChintanSoni" target="_blank" rel="noopener" aria-label="X"><svg class="icon"><use href="#i-x"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section id="hero" class="hero">
+      <canvas id="net" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="hero-eyebrow mono"><span class="pulse" aria-hidden="true"></span><span>AI Engineer at IBM</span><span class="sep">·</span><span>Bengaluru, India</span></p>
+        <h1 class="hero-title" aria-label="Chintan Soni">
+          <span class="hero-line"><span class="hero-word">Chintan</span></span>
+          <span class="hero-line"><span class="hero-word grad">Soni</span></span>
+        </h1>
+        <p class="hero-sub">AI engineer <em class="serif">&amp;</em> engineering leader. I design multi-agent systems that turn weeks of enterprise work into minutes, and grow the teams that ship them.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary magnetic" href="#work">View work <svg class="icon"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-ghost magnetic" href="assets/Chintan_Soni_Resume.pdf" download>Download resume <svg class="icon"><use href="#i-down"/></svg></a>
+        </div>
+        <ul class="hero-meta mono">
+          <li>13+ years</li>
+          <li>LangGraph <span class="sep">·</span> RAG <span class="sep">·</span> A2A <span class="sep">·</span> MCP</li>
+          <li>Open-source builder</li>
+        </ul>
+      </div>
+      <a href="#about" class="scroll-hint mono" aria-label="Scroll to about section"><span>Scroll</span><i></i></a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <ul class="marquee-list">
+          <li>LangGraph</li><li>LangChain</li><li>RAG</li><li>Agent2Agent</li><li>MCP</li><li>Milvus</li><li>IBM watsonx</li><li>Python</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>Node.js</li><li>FastAPI</li><li>Kubernetes</li><li>Docker</li><li>PostgreSQL</li><li>Redis</li><li>Tekton</li><li>GitHub Actions</li><li>Kotlin</li>
+        </ul>
+        <ul class="marquee-list">
+          <li>LangGraph</li><li>LangChain</li><li>RAG</li><li>Agent2Agent</li><li>MCP</li><li>Milvus</li><li>IBM watsonx</li><li>Python</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>Node.js</li><li>FastAPI</li><li>Kubernetes</li><li>Docker</li><li>PostgreSQL</li><li>Redis</li><li>Tekton</li><li>GitHub Actions</li><li>Kotlin</li>
+        </ul>
+      </div>
     </div>
 
-    <script>
-        $(document).ready(function() {
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-media" data-reveal="clip">
+          <div class="photo-wrap">
+            <picture>
+              <source srcset="assets/images/chintan.webp" type="image/webp">
+              <img class="photo" src="assets/images/chintan.jpg" width="900" height="1200" alt="Portrait of Chintan Soni" loading="lazy" decoding="async">
+            </picture>
+            <div class="photo-frame" aria-hidden="true"></div>
+          </div>
+          <div class="photo-caption mono"><span>Chintan Soni</span><span>Bengaluru, IN</span></div>
+        </div>
+        <div class="about-text">
+          <p class="eyebrow mono" data-reveal>01 <span class="sep">/</span> About</p>
+          <h2 class="sec-title" data-split>Thirteen years of shipping, <em>now pointed at agentic AI.</em></h2>
+          <p class="lead" data-reveal>I'm an AI engineer and engineering leader based in Bengaluru. My career runs from native Android through full-stack web to cloud-native systems, and today it is focused on production agentic AI at IBM.</p>
+          <p data-reveal>I build multi-agent systems with LangChain, LangGraph and retrieval-augmented generation that turn multi-day enterprise workflows into minutes, deployed on Kubernetes with full CI/CD ownership. Along the way I've led engineering teams of 20+, mentored 10+ engineers into senior roles, and kept writing, speaking and publishing open source.</p>
+          <h3 class="mini-title mono" data-reveal>How I work</h3>
+          <ol class="principles" data-reveal-stagger>
+            <li><span class="mono">01</span>Start with the user problem, not the framework.</li>
+            <li><span class="mono">02</span>Draw explicit boundaries between models, tools, data and UI.</li>
+            <li><span class="mono">03</span>Treat evaluation, observability, security and failure handling as product features.</li>
+            <li><span class="mono">04</span>Document the reasoning and trade-offs, not only the happy path.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
-            //activate wow.js
-            new WOW().init();
+    <!-- ============ METRICS ============ -->
+    <section class="metrics" aria-label="Impact at a glance">
+      <div class="container">
+        <ul class="metric-grid" data-reveal-stagger>
+          <li class="metric"><span class="metric-num"><span class="count" data-count="13">0</span>+</span><span class="metric-label">years building software</span></li>
+          <li class="metric"><span class="metric-num"><span class="count" data-count="24">0</span></span><span class="metric-label">engineers led at peak</span></li>
+          <li class="metric"><span class="metric-num"><span class="count" data-count="77">0</span>%</span><span class="metric-label">agent prompt size cut</span></li>
+          <li class="metric"><span class="metric-num">&lt;<span class="count" data-count="10">0</span><small>min</small></span><span class="metric-label">proposal docs, down from 2–3 weeks</span></li>
+          <li class="metric"><span class="metric-num"><span class="count" data-count="25">0</span>K+</span><span class="metric-label">Stack Overflow reputation</span></li>
+          <li class="metric"><span class="metric-num"><span class="count" data-count="2.5" data-decimals="1">0</span>M+</span><span class="metric-label">developers reached</span></li>
+        </ul>
+      </div>
+    </section>
 
-            //activate fullpage.js
-            $('#protfolio-wrapper').fullpage({
-                scrollBar: true,
-                navigation: true,
-                navigationTooltips: ['Intro', 'About', 'Slide 3', 'Slide 4'],
-                loopBottom: true,
-                sectionSelector: 'section'
-            });
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section experience">
+      <div class="container">
+        <div class="sec-head">
+          <p class="eyebrow mono" data-reveal>02 <span class="sep">/</span> Experience</p>
+          <h2 class="sec-title" data-split>Where I've <em>built</em> things.</h2>
+        </div>
 
-            //apply color to each section from array
-            int = -1;
-            color_array = ['#fff', '#EF5350', '#fff', '#006eb0'];
+        <ol class="timeline">
+          <div class="tl-line" aria-hidden="true"><i class="tl-progress"></i></div>
 
-            $('section').each(function() {
-                int++
-                $(this).addClass('grid-item-' + int).css('background-color', color_array[int]);
-            });
+          <li class="tl-item is-current">
+            <div class="tl-meta mono"><time>Sept 2024 — Present</time><span>Bengaluru, India</span></div>
+            <div class="tl-marker" aria-hidden="true"><span></span></div>
+            <div class="tl-body">
+              <h3 class="tl-role">AI Engineer <span class="at">@ IBM</span></h3>
+              <ul class="tl-points">
+                <li>Architected and shipped a multi-agent AI assistant (LangChain, LangGraph, RAG) that unifies search across 4+ enterprise documentation and knowledge systems into one cited, natural-language interface, adopted by a 50+ person technical sales organisation.</li>
+                <li>Designed a second multi-agent workflow that generates complete, multi-section technical proposal documents end-to-end, cutting preparation time from 2–3 weeks to under 10 minutes, including live cost data.</li>
+                <li>Cut agent prompt size 77% and token usage ~40% by engineering a conditional tool-instruction injection system across an 11-agent LangGraph orchestration pipeline.</li>
+                <li>Resolved two production-reliability issues: durable multi-day conversation memory via PostgreSQL-backed checkpointing on Kubernetes, and degraded answer quality on keyword-heavy queries via a tuned hybrid dense-vector + BM25 retrieval pipeline on Milvus.</li>
+                <li>Led a monorepo migration to a shared-library architecture (8 reusable Python libraries) with automated CI/CD covering secret scanning, SAST, image builds and rollout, cutting new-service bootstrap from days to under one.</li>
+                <li>Mentored 2 engineers from framework beginners into independent full-stack and agentic-AI contributors, presented platform architecture to IBM's internal engineering community, and received IBM's Entrepreneur Award (2026) for measurable accuracy improvements to a production AI system.</li>
+              </ul>
+              <ul class="tl-tags mono"><li>LangGraph</li><li>LangChain</li><li>RAG</li><li>Milvus</li><li>Kubernetes</li><li>Python</li><li>watsonx</li></ul>
+            </div>
+          </li>
 
+          <li class="tl-item">
+            <div class="tl-meta mono"><time>Apr 2024 — Sept 2024</time><span>Bengaluru, India</span></div>
+            <div class="tl-marker" aria-hidden="true"><span></span></div>
+            <div class="tl-body">
+              <h3 class="tl-role">Lead Engineer <span class="at">@ HCLTech</span></h3>
+              <ul class="tl-points">
+                <li>Led a team of 10 engineers on full-stack delivery (React, TypeScript, Node.js) for E.ON, owning the project roadmap with the product manager plus GitLab CI/CD and static-analysis quality gates.</li>
+              </ul>
+              <ul class="tl-tags mono"><li>React</li><li>TypeScript</li><li>Node.js</li><li>GitLab CI</li></ul>
+            </div>
+          </li>
 
-        });
-    </script>
+          <li class="tl-item">
+            <div class="tl-meta mono"><time>Dec 2023 — Mar 2024</time><span>Bengaluru, India</span></div>
+            <div class="tl-marker" aria-hidden="true"><span></span></div>
+            <div class="tl-body">
+              <h3 class="tl-role">Engineering Manager <span class="at">@ Neetable Technologies</span></h3>
+              <ul class="tl-points">
+                <li>Platform lead across the full product stack (React, Next.js, NestJS, Prisma, AWS Amplify) for PhoxHealth, coordinating UX, engineering and stakeholder delivery.</li>
+              </ul>
+              <ul class="tl-tags mono"><li>Next.js</li><li>NestJS</li><li>Prisma</li><li>AWS Amplify</li></ul>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-meta mono"><time>Nov 2019 — Jun 2023</time><span>India</span></div>
+            <div class="tl-marker" aria-hidden="true"><span></span></div>
+            <div class="tl-body">
+              <h3 class="tl-role">Engineering Manager <span class="at">@ ARInspect</span></h3>
+              <p class="tl-sub mono">Tech Lead, Android 2019–22 · Engineering Head 2022–23</p>
+              <ul class="tl-points">
+                <li>Promoted from Android Tech Lead to Engineering Head (May 2022), growing scope from a 5-person mobile team to leading 24 engineers (10 frontend, 7 backend, 5 QA, 2 automation) across web and mobile.</li>
+                <li>Planned, designed and shipped features end-to-end for a field-operations automation platform used by U.S. government agencies.</li>
+              </ul>
+              <ul class="tl-tags mono"><li>Leadership</li><li>Android</li><li>Web</li><li>Agile</li></ul>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-meta mono"><time>Jul 2017 — Nov 2019</time><span>Ahmedabad, India</span></div>
+            <div class="tl-marker" aria-hidden="true"><span></span></div>
+            <div class="tl-body">
+              <h3 class="tl-role">Sr. Android Developer <span class="at">@ Simform Solutions</span></h3>
+              <ul class="tl-points">
+                <li>Built native Android applications in Kotlin and Jetpack for SwiftShopper (e-commerce) and FitCom (fitness tracking).</li>
+              </ul>
+              <ul class="tl-tags mono"><li>Kotlin</li><li>Jetpack</li><li>Android</li></ul>
+            </div>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-meta mono"><time>Jul 2013 — Jul 2017</time><span>Ahmedabad, India</span></div>
+            <div class="tl-marker" aria-hidden="true"><span></span></div>
+            <div class="tl-body">
+              <h3 class="tl-role">Android Developer → Senior Software Engineer <span class="at">@ LetsNurture &amp; Pixielit Studios</span></h3>
+              <ul class="tl-points">
+                <li>Native Android development, backend services for mobile apps, and training junior developers.</li>
+              </ul>
+              <ul class="tl-tags mono"><li>Java</li><li>Android</li><li>Backend</li></ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <div class="sec-head">
+          <p class="eyebrow mono" data-reveal>03 <span class="sep">/</span> Skills</p>
+          <h2 class="sec-title" data-split>The stack I <em>reach for.</em></h2>
+        </div>
+        <div class="skills-grid" data-reveal-stagger>
+          <article class="skill-card spot">
+            <h3>AI &amp; Agentic Systems</h3>
+            <ul class="chips"><li>LangChain</li><li>LangGraph</li><li>RAG</li><li>MCP</li><li>A2A</li><li>Hybrid Search</li><li>Milvus</li><li>IBM watsonx</li><li>Prompt Engineering</li></ul>
+          </article>
+          <article class="skill-card spot">
+            <h3>Languages</h3>
+            <ul class="chips"><li>Python</li><li>TypeScript</li><li>JavaScript</li><li>Kotlin</li><li>Java</li></ul>
+          </article>
+          <article class="skill-card spot">
+            <h3>Frontend</h3>
+            <ul class="chips"><li>React</li><li>Redux</li><li>Next.js</li><li>Angular</li><li>Carbon Design System</li></ul>
+          </article>
+          <article class="skill-card spot">
+            <h3>Backend &amp; APIs</h3>
+            <ul class="chips"><li>Node.js</li><li>FastAPI</li><li>NestJS</li><li>REST</li><li>gRPC</li><li>Microservices</li></ul>
+          </article>
+          <article class="skill-card spot">
+            <h3>Data</h3>
+            <ul class="chips"><li>PostgreSQL</li><li>MongoDB</li><li>Redis</li><li>SQL</li></ul>
+          </article>
+          <article class="skill-card spot">
+            <h3>Cloud &amp; DevOps</h3>
+            <ul class="chips"><li>Kubernetes</li><li>Docker</li><li>IBM Cloud</li><li>AWS</li><li>Tekton</li><li>GitHub Actions</li><li>GitLab CI</li><li>SonarQube</li></ul>
+          </article>
+          <article class="skill-card spot">
+            <h3>Mobile &amp; more</h3>
+            <ul class="chips"><li>Android</li><li>Jetpack</li><li>Flutter</li><li>Firebase</li><li>Ollama</li><li>Prisma</li><li>Tailwind CSS</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK / OPEN SOURCE ============ -->
+    <section id="work" class="section work">
+      <div class="container">
+        <div class="sec-head">
+          <p class="eyebrow mono" data-reveal>04 <span class="sep">/</span> Open source</p>
+          <h2 class="sec-title" data-split>Things I've built <em>in the open.</em></h2>
+          <p class="sec-desc" data-reveal>Local-first tooling for the agent ecosystem. Contributions welcome on all of them.</p>
+        </div>
+        <div class="projects-grid" data-reveal-stagger>
+          <article class="project tilt spot" data-cursor="View">
+            <div class="project-top mono"><span>01</span><span>TypeScript · Next.js · A2A</span></div>
+            <h3 class="project-title">A2A UI</h3>
+            <p>A local-first developer workbench for building, testing and debugging Agent2Agent protocol servers. Interactive agent chat, execution-event inspection, run comparison, automated QA suites and embeddable React primitives, shipped as an npm executable.</p>
+            <code class="cmd mono">npx a2a-ui --open</code>
+            <div class="project-links">
+              <a href="https://github.com/iChintanSoni/a2a-ui" target="_blank" rel="noopener">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+              <a href="https://www.npmjs.com/package/a2a-ui" target="_blank" rel="noopener">npm <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+          <article class="project tilt spot" data-cursor="View">
+            <div class="project-top mono"><span>02</span><span>TypeScript · LangGraph · Ollama</span></div>
+            <h3 class="project-title">AI Assistant</h3>
+            <p>A local-first AI assistant: a TypeScript A2A agent server backed by a LangGraph deep agent on local Ollama models, with a React frontend. Streaming, human-in-the-loop approvals, long-term memory, sandboxed code execution and document RAG, with no hosted LLM.</p>
+            <code class="cmd mono">deep agent · approvals · memory · RAG</code>
+            <div class="project-links">
+              <a href="https://github.com/iChintanSoni/ai-assistant" target="_blank" rel="noopener">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+          <article class="project tilt spot" data-cursor="View">
+            <div class="project-top mono"><span>03</span><span>TypeScript · CLI · DX</span></div>
+            <h3 class="project-title">skills-master</h3>
+            <p>A tool-agnostic compiler for AI coding-assistant skills. Author a best practice once and compile it into Claude Code Agent Skills, Cursor rules, Copilot instructions or AGENTS.md. 393 original skills across Apple and Android platform development.</p>
+            <code class="cmd mono">393 skills · 4 emitters · CI-enforced</code>
+            <div class="project-links">
+              <a href="https://github.com/iChintanSoni/skills-master" target="_blank" rel="noopener">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+          <article class="project tilt spot" data-cursor="View">
+            <div class="project-top mono"><span>04</span><span>Rust · Documents · Open-core</span></div>
+            <h3 class="project-title">Compyla</h3>
+            <p>Converts LLM-friendly Markdown into native DOCX, PDF, PPTX and XLSX through one validated, template-driven engine. No headless office suite in the pipeline, byte-reproducible output, formulas parsed and allow-listed.</p>
+            <code class="cmd mono">markdown → ast → validator → native renderers</code>
+            <div class="project-links">
+              <a href="https://github.com/iChintanSoni/compyla" target="_blank" rel="noopener">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WRITING & TALKS ============ -->
+    <section id="writing" class="section writing">
+      <div class="container">
+        <div class="sec-head">
+          <p class="eyebrow mono" data-reveal>05 <span class="sep">/</span> Writing &amp; talks</p>
+          <h2 class="sec-title" data-split>Explaining AI <em>from first principles.</em></h2>
+        </div>
+        <div class="writing-grid">
+          <a class="feature-video spot" href="https://www.youtube.com/playlist?list=PL0ytxsLaZuGIT3ZpmUGYRZQjrMqk4-wTx" target="_blank" rel="noopener" data-reveal="clip" data-cursor="Watch">
+            <img src="https://i.ytimg.com/vi/7hSDxxby66M/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async" onerror="this.remove()">
+            <span class="play" aria-hidden="true"><svg class="icon"><use href="#i-play"/></svg></span>
+            <div class="fv-text">
+              <span class="mono fv-kicker"><svg class="icon"><use href="#i-youtube"/></svg> YouTube series</span>
+              <h3>AI Foundations for Developers</h3>
+              <p>Vectors, embeddings, dense vs sparse retrieval, vector databases, hybrid search, RAG, agents, MCP and A2A, explained for software engineers who want the fundamentals, not just another framework.</p>
+            </div>
+          </a>
+          <ol class="posts" data-reveal-stagger>
+            <li><a href="https://dev.to/ichintansoni/what-is-a-vector-database-a-practical-deep-dive-with-milvus-1m9g" target="_blank" rel="noopener"><span class="post-date mono">Jan 2026</span><span class="post-title">What Is a Vector Database? A Practical Deep Dive with Milvus</span><svg class="icon"><use href="#i-arrow"/></svg></a></li>
+            <li><a href="https://dev.to/ichintansoni/dense-vs-sparse-vectors-in-ai-explained-for-developers-ea0" target="_blank" rel="noopener"><span class="post-date mono">Jan 2026</span><span class="post-title">Dense vs Sparse Vectors in AI, Explained for Developers</span><svg class="icon"><use href="#i-arrow"/></svg></a></li>
+            <li><a href="https://dev.to/ichintansoni/ai-foundations-for-developers-1-what-are-vectors-14c4" target="_blank" rel="noopener"><span class="post-date mono">Jan 2026</span><span class="post-title">AI Foundations for Developers #1: What Are Vectors?</span><svg class="icon"><use href="#i-arrow"/></svg></a></li>
+            <li><a href="https://dev.to/ichintansoni/nodejs-just-got-cooler-native-typescript-and-watch-mode-are-here-to-party-a5a" target="_blank" rel="noopener"><span class="post-date mono">Apr 2025</span><span class="post-title">Node.js Just Got Cooler: Native TypeScript and Watch Mode</span><svg class="icon"><use href="#i-arrow"/></svg></a></li>
+            <li><a href="https://dev.to/ichintansoni/understanding-javascripts-event-loop-a-simple-cookie-making-analogy-3485" target="_blank" rel="noopener"><span class="post-date mono">Oct 2024</span><span class="post-title">Understanding JavaScript's Event Loop: A Cookie-Making Analogy</span><svg class="icon"><use href="#i-arrow"/></svg></a></li>
+            <li><a href="https://dev.to/ichintansoni/gitlab-cicd-pipelines-best-practices-for-monorepos-cba" target="_blank" rel="noopener"><span class="post-date mono">Jul 2024</span><span class="post-title">GitLab CI/CD Pipelines: Best Practices for Monorepos</span><svg class="icon"><use href="#i-arrow"/></svg></a></li>
+            <li class="posts-more"><a href="https://dev.to/ichintansoni" target="_blank" rel="noopener"><span class="post-date mono">All posts</span><span class="post-title">Read everything on DEV Community</span><svg class="icon"><use href="#i-arrow"/></svg></a></li>
+          </ol>
+        </div>
+        <div class="talks" data-reveal-stagger>
+          <h3 class="mini-title mono">Talks</h3>
+          <div class="talk">
+            <span class="talk-where mono">IBM Tech Talks</span>
+            <p>Architecture of a production multi-agent AI platform, presented to IBM's internal engineering community.</p>
+          </div>
+          <div class="talk">
+            <span class="talk-where mono">GDG DevFest</span>
+            <p>Speaker at Google Developer Group DevFest.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CREDENTIALS ============ -->
+    <section id="credentials" class="section credentials">
+      <div class="container">
+        <div class="sec-head">
+          <p class="eyebrow mono" data-reveal>06 <span class="sep">/</span> Credentials</p>
+          <h2 class="sec-title" data-split>Recognition <em>&amp; learning.</em></h2>
+        </div>
+        <div class="cred-grid">
+          <div class="cred-col" data-reveal-stagger>
+            <h3 class="mini-title mono">Awards &amp; certifications</h3>
+            <ul class="cred-list">
+              <li class="cred award">
+                <span class="cred-icon" aria-hidden="true"><svg class="icon"><use href="#i-award"/></svg></span>
+                <div><strong>IBM Entrepreneur Award</strong><span>IBM · 2026 · for measurable accuracy improvements to a production AI system</span></div>
+              </li>
+              <li class="cred">
+                <span class="cred-icon" aria-hidden="true"><svg class="icon"><use href="#i-cert"/></svg></span>
+                <div><strong>IBM Developer Profession, Level 2 (Experienced)</strong><span>IBM · 2026</span></div>
+              </li>
+              <li class="cred">
+                <span class="cred-icon" aria-hidden="true"><svg class="icon"><use href="#i-cert"/></svg></span>
+                <div><strong>Deep Agents with LangGraph</strong><span>LangChain Academy · 2025</span></div>
+              </li>
+              <li class="cred">
+                <span class="cred-icon" aria-hidden="true"><svg class="icon"><use href="#i-cert"/></svg></span>
+                <div><strong>Claude Academy</strong><span>Claude, Claude Code, Cowork, Agent Skills, Subagents · Anthropic · 2026</span></div>
+              </li>
+            </ul>
+          </div>
+          <div class="cred-col" data-reveal-stagger>
+            <h3 class="mini-title mono">Education</h3>
+            <ul class="cred-list">
+              <li class="cred">
+                <span class="cred-icon" aria-hidden="true"><svg class="icon"><use href="#i-edu"/></svg></span>
+                <div><strong>Master of Computer Applications (MCA)</strong><span>L.J. Institute of Computer Applications · 2013</span></div>
+              </li>
+              <li class="cred">
+                <span class="cred-icon" aria-hidden="true"><svg class="icon"><use href="#i-edu"/></svg></span>
+                <div><strong>B.Sc., Mathematics</strong><span>K.K. Shah Jarodwala Science College · 2010</span></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ONLINE PRESENCE ============ -->
+    <section id="presence" class="section presence">
+      <div class="container">
+        <div class="sec-head">
+          <p class="eyebrow mono" data-reveal>07 <span class="sep">/</span> Find me online</p>
+          <h2 class="sec-title" data-split>Around the <em>internet.</em></h2>
+        </div>
+        <ul class="presence-grid" data-reveal-stagger>
+          <li><a class="presence-card spot" href="https://github.com/iChintanSoni" target="_blank" rel="noopener"><svg class="icon"><use href="#i-github"/></svg><strong>GitHub</strong><span class="mono">@iChintanSoni · 23 repos</span></a></li>
+          <li><a class="presence-card spot" href="https://www.linkedin.com/in/ichintansoni/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-linkedin"/></svg><strong>LinkedIn</strong><span class="mono">in/ichintansoni</span></a></li>
+          <li><a class="presence-card spot" href="https://stackoverflow.com/users/1739882/chintan-soni" target="_blank" rel="noopener"><svg class="icon"><use href="#i-stackoverflow"/></svg><strong>Stack Overflow</strong><span class="mono">25K+ rep · 449 answers</span></a></li>
+          <li><a class="presence-card spot" href="https://dev.to/ichintansoni" target="_blank" rel="noopener"><svg class="icon"><use href="#i-devto"/></svg><strong>DEV Community</strong><span class="mono">@ichintansoni · 13 articles</span></a></li>
+          <li><a class="presence-card spot" href="https://www.youtube.com/playlist?list=PL0ytxsLaZuGIT3ZpmUGYRZQjrMqk4-wTx" target="_blank" rel="noopener"><svg class="icon"><use href="#i-youtube"/></svg><strong>YouTube</strong><span class="mono">AI Foundations for Developers</span></a></li>
+          <li><a class="presence-card spot" href="https://x.com/iChintanSoni" target="_blank" rel="noopener"><svg class="icon"><use href="#i-x"/></svg><strong>X</strong><span class="mono">@iChintanSoni</span></a></li>
+          <li><a class="presence-card spot" href="https://medium.com/@chintansoni" target="_blank" rel="noopener"><svg class="icon"><use href="#i-medium"/></svg><strong>Medium</strong><span class="mono">@chintansoni · Android era</span></a></li>
+          <li><a class="presence-card spot" href="https://www.npmjs.com/package/a2a-ui" target="_blank" rel="noopener"><svg class="icon"><use href="#i-npm"/></svg><strong>npm</strong><span class="mono">a2a-ui · npx a2a-ui</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section contact">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="container contact-inner">
+        <p class="eyebrow mono" data-reveal>08 <span class="sep">/</span> Contact</p>
+        <h2 class="contact-title" data-split>Let's build something <em>useful.</em></h2>
+        <p class="lead" data-reveal>Open to conversations about AI engineering, technical leadership, open-source collaboration and product ideas worth turning into working software.</p>
+        <div class="contact-actions" data-reveal>
+          <a class="btn btn-primary btn-lg magnetic" href="mailto:ichintansoni@gmail.com"><svg class="icon"><use href="#i-mail"/></svg> ichintansoni@gmail.com</a>
+          <button type="button" class="btn btn-ghost btn-lg magnetic copy-email" data-email="ichintansoni@gmail.com"><svg class="icon"><use href="#i-copy"/></svg> <span>Copy email</span></button>
+        </div>
+        <ul class="contact-links" data-reveal-stagger>
+          <li><a href="https://www.linkedin.com/in/ichintansoni/" target="_blank" rel="noopener">LinkedIn <svg class="icon"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://github.com/iChintanSoni" target="_blank" rel="noopener">GitHub <svg class="icon"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="https://x.com/iChintanSoni" target="_blank" rel="noopener">X <svg class="icon"><use href="#i-arrow"/></svg></a></li>
+          <li><a href="assets/Chintan_Soni_Resume.pdf" download>Resume <svg class="icon"><use href="#i-down"/></svg></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> Chintan Soni · Bengaluru, India</span>
+      <span class="mono footer-stack">Built with HTML, CSS, JavaScript and GSAP</span>
+      <a href="#hero" class="footer-top">Back to top <svg class="icon"><use href="#i-arrow"/></svg></a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.4/dist/lenis.min.js" defer></script>
+  <script src="js/main.js" defer></script>
 </body>
-
-</html>
-<style>
-
-</style>
-
 </html>

@@ -1,37 +1,16 @@
 {
-    "name": "ichintansoni.github.io",
-    "version": "1.0.0",
-    "description": "This is a static portfolio.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "python -m SimpleHTTPServer 4001"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ichintansoni/ichintansoni.github.io.git"
-    },
-    "author": "Chintan Soni",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/ichintansoni/ichintansoni.github.io/issues"
-    },
-    "devDependencies": {
-        "css-loader": "^0.28.8",
-        "eslint": "^4.11.0",
-        "eslint-config-airbnb": "^16.1.0",
-        "eslint-plugin-import": "^2.8.0",
-        "eslint-plugin-jsx-a11y": "^6.0.2",
-        "eslint-plugin-react": "^7.5.1",
-        "extract-text-webpack-plugin": "^3.0.2",
-        "node-sass": "^4.7.2",
-        "postcss-loader": "^2.0.10",
-        "sass-loader": "^6.0.6",
-        "style-loader": "^0.19.1",
-        "url-loader": "^0.6.2",
-        "webpack": "^3.10.0"
-    },
-    "dependencies": {
-        "flexboxgrid": "^6.3.1"
-    }
+  "name": "ichintansoni.github.io",
+  "version": "2.0.0",
+  "description": "Personal portfolio of Chintan Soni — AI engineer and engineering leader. Static HTML/CSS/JS, no build step.",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 4001 --bind 127.0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iChintanSoni/ichintansoni.github.io.git"
+  },
+  "author": "Chintan Soni <ichintansoni@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://ichintansoni.github.io"
 }
